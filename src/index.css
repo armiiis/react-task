@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+}
+
+.container {
+    max-width: 780px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.checkbox {
+    width: 7rem;
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem 1rem;
+    background-color: #ecf0f1;
+    border-radius: .2rem;
+}
+
+.api-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.api-wrapper .text {
+    color: #bdc3c7;
+}
+
+button {
+    padding: .5rem 1rem;
+    background-color: #27ae60;
+    border-style: none;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button[disabled] {
+    background-color: #bdc3c7;
+    cursor: default;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+}
+
+.list {
+    max-width: 500px;
+    margin: auto;
+}
+
+.list .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0;
+}
+
+.list .list-item .checkbox {
+    width: 1rem;
+}
+
+.state-indicator {
+    background-color: grey;
+    padding: .2rem;
+    width: 4rem;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: .2rem;
+    border-radius: .2rem;
+}
+
+.state-indicator.LOADING {
+    background-color: #f1c40f;
+}
+
+.state-indicator.LOADED {
+    background-color: #27ae60;
+}
+
+.state-indicator.ERROR {
+    background-color: #c0392b;
+}
