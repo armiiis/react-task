@@ -1,4 +1,4 @@
-clone repository
-cd ./react-task
-npm install
+clone repository <br />
+cd ./react-task <br />
+npm install <br />
 npm start
