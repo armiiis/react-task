@@ -80,13 +80,13 @@ button[disabled] {
 }
 
 .state-indicator.LOADING {
-    background-color: #f1c40f;
+    background-color: #f1c41f;
 }
 
 .state-indicator.LOADED {
-    background-color: #27ae60;
+    background-color: #28ae60;
 }
 
 .state-indicator.ERROR {
-    background-color: #c0392b;
+    background-color: #c00016;
 }
